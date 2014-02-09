@@ -24,6 +24,7 @@
 		5207209918A62CC1005A6804 /* AppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207209818A62CC1005A6804 /* AppDemoTests.m */; };
 		52DB789B18A77E030095189F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB789A18A77E030095189F /* MainViewController.m */; };
 		52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB789D18A77F9E0095189F /* ViewControllerDemoAlert.m */; };
+		52DB78A118A78C9B0095189F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB78A018A78C9B0095189F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		52DB789A18A77E030095189F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		52DB789C18A77F9E0095189F /* ViewControllerDemoAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoAlert.h; sourceTree = "<group>"; };
 		52DB789D18A77F9E0095189F /* ViewControllerDemoAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoAlert.m; sourceTree = "<group>"; };
+		52DB789F18A78C9B0095189F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = AppDemo/Person.h; sourceTree = "<group>"; };
+		52DB78A018A78C9B0095189F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = AppDemo/Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		5207206118A62CC1005A6804 = {
 			isa = PBXGroup;
 			children = (
+				52DB78A218A78CA50095189F /* DemoFoundation */,
 				5207207518A62CC1005A6804 /* AppDemo */,
 				5207209218A62CC1005A6804 /* AppDemoTests */,
 				5207206C18A62CC1005A6804 /* Frameworks */,
@@ -161,6 +165,15 @@
 				5207209518A62CC1005A6804 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DB78A218A78CA50095189F /* DemoFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				52DB78A018A78C9B0095189F /* Person.m */,
+				52DB789F18A78C9B0095189F /* Person.h */,
+			);
+			name = DemoFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DB78A118A78C9B0095189F /* Person.m in Sources */,
 				5207208018A62CC1005A6804 /* AppDelegate.m in Sources */,
 				52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */,
 				5207208318A62CC1005A6804 /* AppDemo.xcdatamodeld in Sources */,

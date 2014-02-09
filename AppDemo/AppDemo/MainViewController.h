@@ -11,6 +11,8 @@
 
 #import "ViewControllerDemoAlert.h"
 
+#import "Person.h"
+
 @interface MainViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoAlert;

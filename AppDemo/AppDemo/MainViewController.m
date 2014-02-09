@@ -31,6 +31,9 @@
     //SET TITLE
     self.title = @"Demo iOS";
     
+    
+    [self demoFoundation];
+    
     //CREATE A SCROLL VIEW
     UIScrollView* scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     scrollView.scrollEnabled = YES;
@@ -81,6 +84,20 @@
     //ESEGUE LA NAVIGAZIONE
     [self.navigationController pushViewController:secondController
                                          animated:NO];
+   
+}
+
+-(void) demoFoundation{
+
+    //CREATE THE OBJECT
+    Person *p1 = [[Person alloc] init];
+    
+    //ACCESS TO THE PROPERTIES AND ASSIGN SOME VALUES
+    p1.firstName = @"Paolo";
+    p1.lastName = @"Nappi";
+    
+    
+    
    
 }
 
