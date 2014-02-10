@@ -8,7 +8,7 @@
 
 #import "Person.h"
 
-@implementation Person
+@implementation Person 
 
 
 static unsigned int class_id = -1;
@@ -16,13 +16,22 @@ static unsigned int class_id = -1;
 
 - (id)init {
    
-    self._id = [Person generateID];
+    self._id = [self generateID];
     
     return self;
 }
 
+//IMPLEMENT PERSON PROTOCOL REQUIRED METHODS
+- (NSString*)getFirstName{
+    return self.firstName;
+}
 
-+ (int) generateID
+- (NSString*)getLastName{
+    return self.lastName;
+}
+
+
+- (int) generateID
 {
     @synchronized (self)
     {
@@ -30,6 +39,9 @@ static unsigned int class_id = -1;
     }
     return class_id;
 }
+
+
+//STATIC COMMON PUBLICS METHODS
 
 + (float) maximumHeightInCentimeters{
     

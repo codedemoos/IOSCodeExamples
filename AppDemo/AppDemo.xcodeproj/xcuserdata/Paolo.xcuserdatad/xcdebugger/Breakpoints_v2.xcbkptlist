@@ -54,47 +54,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AppDemo/Person.h"
-            timestampString = "413752122.517101"
+            filePath = "PersonProtocol.h"
+            timestampString = "413755059.081868"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "@interface Person"
-            landmarkType = "2">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[Person _id]"
-                  moduleName = "AppDemo"
-                  urlString = "file:///Users/Paolo/Data-Pen-2-Shared/SVILUPPO/WORKSPACE_XCODE_GIT/IOSCodeExamples/AppDemo/AppDemo/Person.h"
-                  timestampString = "413754157.796107"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[Person set_id:]"
-                  moduleName = "AppDemo"
-                  urlString = "file:///Users/Paolo/Data-Pen-2-Shared/SVILUPPO/WORKSPACE_XCODE_GIT/IOSCodeExamples/AppDemo/AppDemo/Person.h"
-                  timestampString = "413754157.796436"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-getLastName"
+            landmarkType = "4">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

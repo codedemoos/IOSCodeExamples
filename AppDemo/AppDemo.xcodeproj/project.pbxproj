@@ -59,6 +59,7 @@
 		5207209818A62CC1005A6804 /* AppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDemoTests.m; sourceTree = "<group>"; };
 		52669EFA18A9518400B3C6F4 /* ObjectiveCLanguageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCLanguageDemo.h; sourceTree = "<group>"; };
 		52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLanguageDemo.m; sourceTree = "<group>"; };
+		52669EFE18A9667500B3C6F4 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
 		52DB789918A77E030095189F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		52DB789A18A77E030095189F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		52DB789C18A77F9E0095189F /* ViewControllerDemoAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoAlert.h; sourceTree = "<group>"; };
@@ -177,6 +178,7 @@
 				52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */,
 				52DB78A018A78C9B0095189F /* Person.m */,
 				52DB789F18A78C9B0095189F /* Person.h */,
+				52669EFE18A9667500B3C6F4 /* PersonProtocol.h */,
 			);
 			name = DemoFoundation;
 			sourceTree = "<group>";

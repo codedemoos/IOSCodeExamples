@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+#import "PersonProtocol.h"
 /*
  strong
  Properties of this type will be retained by the runtime. These can only be instances of classes. In other words, you cannot retain a value into a property of type strong if the value is a primitive. You can retain objects, but not primitives.
@@ -32,9 +32,7 @@
 
 
 
-@interface Person : NSObject
-
-
+@interface Person : NSObject <PersonProtocol>
 
 
 
