@@ -23,6 +23,7 @@
 		5207209718A62CC1005A6804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5207209518A62CC1005A6804 /* InfoPlist.strings */; };
 		5207209918A62CC1005A6804 /* AppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207209818A62CC1005A6804 /* AppDemoTests.m */; };
 		52669EFC18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */; };
+		52669F0118A9690C00B3C6F4 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 52669F0018A9690C00B3C6F4 /* Employee.m */; };
 		52DB789B18A77E030095189F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB789A18A77E030095189F /* MainViewController.m */; };
 		52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB789D18A77F9E0095189F /* ViewControllerDemoAlert.m */; };
 		52DB78A118A78C9B0095189F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DB78A018A78C9B0095189F /* Person.m */; };
@@ -60,6 +61,9 @@
 		52669EFA18A9518400B3C6F4 /* ObjectiveCLanguageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCLanguageDemo.h; sourceTree = "<group>"; };
 		52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLanguageDemo.m; sourceTree = "<group>"; };
 		52669EFE18A9667500B3C6F4 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		52669EFF18A9690C00B3C6F4 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		52669F0018A9690C00B3C6F4 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		52669F0218A9692C00B3C6F4 /* EmployeeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeProtocol.h; sourceTree = "<group>"; };
 		52DB789918A77E030095189F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		52DB789A18A77E030095189F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		52DB789C18A77F9E0095189F /* ViewControllerDemoAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoAlert.h; sourceTree = "<group>"; };
@@ -179,6 +183,9 @@
 				52DB78A018A78C9B0095189F /* Person.m */,
 				52DB789F18A78C9B0095189F /* Person.h */,
 				52669EFE18A9667500B3C6F4 /* PersonProtocol.h */,
+				52669EFF18A9690C00B3C6F4 /* Employee.h */,
+				52669F0018A9690C00B3C6F4 /* Employee.m */,
+				52669F0218A9692C00B3C6F4 /* EmployeeProtocol.h */,
 			);
 			name = DemoFoundation;
 			sourceTree = "<group>";
@@ -283,6 +290,7 @@
 				5207208018A62CC1005A6804 /* AppDelegate.m in Sources */,
 				52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */,
 				5207208318A62CC1005A6804 /* AppDemo.xcdatamodeld in Sources */,
+				52669F0118A9690C00B3C6F4 /* Employee.m in Sources */,
 				5207207C18A62CC1005A6804 /* main.m in Sources */,
 				52DB789B18A77E030095189F /* MainViewController.m in Sources */,
 			);

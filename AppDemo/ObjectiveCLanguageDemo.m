@@ -10,6 +10,8 @@
 
 #import "Person.h"
 
+#import "Employee.h"
+
 @implementation ObjectiveCLanguageDemo
 
 
@@ -71,6 +73,19 @@
     NSLog(@"Full name = %@ %@ person id %id",  p2.firstName, p2.lastName, p2._id);
     
     
+    
+     Employee *e1 = [[Employee alloc] init];
+    
+    e1.firstName = p1.firstName;
+    
+    e1.lastName = p1.lastName;
+    
+    
+    
+    e1.salary = 2003.3;
+    
+    
+    NSLog(@"Employe %@, salary %f " ,  e1.getIdentificationInfo, e1.salary);
 }
 
 +(void) demoArray{
