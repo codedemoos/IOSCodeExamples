@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 
-
 /*
  strong
  Properties of this type will be retained by the runtime. These can only be instances of classes. In other words, you cannot retain a value into a property of type strong if the value is a primitive. You can retain objects, but not primitives.
@@ -23,7 +22,23 @@
  The same as the assign qualifier with one big difference. In the case of objects, when the object that is assigned to a property of this type is released from memory, the runtime will automatically set the value of this property to nil.
  */
 
+/*
+ strong vs weak
+ 
+ strong is the default. An object remains “alive” as long as there is a strong pointer to it.
+ 
+ weak specifies a reference that does not keep the referenced object alive. A weak reference is set to nil when there are no strong references to the object.
+ */
+
+
+
 @interface Person : NSObject
+
+
+
+
+
+@property (nonatomic, assign) int _id;
 
 @property (nonatomic, copy) NSString *firstName;
 

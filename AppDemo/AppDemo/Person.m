@@ -11,6 +11,26 @@
 @implementation Person
 
 
+static unsigned int class_id = -1;
+
+
+- (id)init {
+   
+    self._id = [Person generateID];
+    
+    return self;
+}
+
+
++ (int) generateID
+{
+    @synchronized (self)
+    {
+        class_id++;
+    }
+    return class_id;
+}
+
 + (float) maximumHeightInCentimeters{
     
     return 250.0f;

@@ -8,6 +8,8 @@
 
 #import "MainViewController.h"
 
+#import "ObjectiveCLanguageDemo.h"
+
 @interface MainViewController ()
 
 @end
@@ -27,6 +29,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    
+    [ObjectiveCLanguageDemo rundDemoos];
     
     //SET TITLE
     self.title = @"Demo iOS";
@@ -89,13 +94,7 @@
 
 -(void) demoFoundation{
 
-    //CREATE THE OBJECT
-    Person *p1 = [[Person alloc] init];
-    
-    //ACCESS TO THE PROPERTIES AND ASSIGN SOME VALUES
-    p1.firstName = @"Paolo";
-    p1.lastName = @"Nappi";
-    
+       
     
     
    
