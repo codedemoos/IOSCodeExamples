@@ -12,6 +12,9 @@
 
 #import "Employee.h"
 
+#import "Company.h"
+
+
 @implementation ObjectiveCLanguageDemo
 
 
@@ -86,6 +89,18 @@
     
     
     NSLog(@"Employe %@, salary %f " ,  e1.getIdentificationInfo, e1.salary);
+    
+    
+    Company *company = [[Company alloc] init];
+    
+    [company addEmployee:e1];
+    
+    [company printEmployees];
+
+    [company removeEmployee:e1];
+    
+     [company printEmployees];
+    
 }
 
 +(void) demoArray{

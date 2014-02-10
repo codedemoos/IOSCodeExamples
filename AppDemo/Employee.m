@@ -25,11 +25,16 @@
 -(NSString*) getIdentificationInfo{
 
 
-    NSString* identicationInfo;
+    NSString *identicationInfo;
     
     identicationInfo = [NSString stringWithFormat:@"Employee: %d_%@_%@",  super._id, super.getFirstName,  super.getLastName];
     
     return  identicationInfo;
+}
+
+- (NSString *)description {
+    
+    return [NSString stringWithFormat: @" %@", self.getIdentificationInfo];
 }
 
 @end
