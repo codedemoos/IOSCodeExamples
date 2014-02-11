@@ -22,6 +22,13 @@
 		5207208F18A62CC1005A6804 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207207318A62CC1005A6804 /* CoreData.framework */; };
 		5207209718A62CC1005A6804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5207209518A62CC1005A6804 /* InfoPlist.strings */; };
 		5207209918A62CC1005A6804 /* AppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207209818A62CC1005A6804 /* AppDemoTests.m */; };
+		524DAAE118AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAD818AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.m */; };
+		524DAAE218AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAADA18AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m */; };
+		524DAAE318AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAADC18AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.m */; };
+		524DAAE418AAC3CD008E5AB4 /* ViewControllerDemoUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAADE18AAC3CD008E5AB4 /* ViewControllerDemoUISlider.m */; };
+		524DAAE518AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAE018AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.m */; };
+		524DAAE918AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAE718AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m */; };
+		524DAAED18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAEC18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m */; };
 		52669EFC18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */; };
 		52669F0118A9690C00B3C6F4 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 52669F0018A9690C00B3C6F4 /* Employee.m */; };
 		52669F0E18A9737C00B3C6F4 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 52669F0D18A9737C00B3C6F4 /* Project.m */; };
@@ -60,6 +67,20 @@
 		5207209418A62CC1005A6804 /* AppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5207209618A62CC1005A6804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5207209818A62CC1005A6804 /* AppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDemoTests.m; sourceTree = "<group>"; };
+		524DAAD718AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUIDatePicker.h; sourceTree = "<group>"; };
+		524DAAD818AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUIDatePicker.m; sourceTree = "<group>"; };
+		524DAAD918AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUIDatePicker2.h; sourceTree = "<group>"; };
+		524DAADA18AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUIDatePicker2.m; sourceTree = "<group>"; };
+		524DAADB18AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUIPicker.h; sourceTree = "<group>"; };
+		524DAADC18AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUIPicker.m; sourceTree = "<group>"; };
+		524DAADD18AAC3CD008E5AB4 /* ViewControllerDemoUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUISlider.h; sourceTree = "<group>"; };
+		524DAADE18AAC3CD008E5AB4 /* ViewControllerDemoUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUISlider.m; sourceTree = "<group>"; };
+		524DAADF18AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUISwitch.h; sourceTree = "<group>"; };
+		524DAAE018AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUISwitch.m; sourceTree = "<group>"; };
+		524DAAE618AAC4BB008E5AB4 /* ViewControllerDemoAlert2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoAlert2.h; sourceTree = "<group>"; };
+		524DAAE718AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoAlert2.m; sourceTree = "<group>"; };
+		524DAAEB18AAC5D0008E5AB4 /* ViewControllerDemoUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUISegmentedControl.h; sourceTree = "<group>"; };
+		524DAAEC18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUISegmentedControl.m; sourceTree = "<group>"; };
 		52669EFA18A9518400B3C6F4 /* ObjectiveCLanguageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCLanguageDemo.h; sourceTree = "<group>"; };
 		52669EFB18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLanguageDemo.m; sourceTree = "<group>"; };
 		52669EFE18A9667500B3C6F4 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
@@ -139,6 +160,20 @@
 		5207207518A62CC1005A6804 /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				524DAAEB18AAC5D0008E5AB4 /* ViewControllerDemoUISegmentedControl.h */,
+				524DAAEC18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m */,
+				524DAAE618AAC4BB008E5AB4 /* ViewControllerDemoAlert2.h */,
+				524DAAE718AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m */,
+				524DAAD718AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.h */,
+				524DAAD818AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.m */,
+				524DAAD918AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.h */,
+				524DAADA18AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m */,
+				524DAADB18AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.h */,
+				524DAADC18AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.m */,
+				524DAADD18AAC3CD008E5AB4 /* ViewControllerDemoUISlider.h */,
+				524DAADE18AAC3CD008E5AB4 /* ViewControllerDemoUISlider.m */,
+				524DAADF18AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.h */,
+				524DAAE018AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.m */,
 				52DB789C18A77F9E0095189F /* ViewControllerDemoAlert.h */,
 				52DB789D18A77F9E0095189F /* ViewControllerDemoAlert.m */,
 				52DB789A18A77E030095189F /* MainViewController.m */,
@@ -295,13 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524DAAE318AAC3CD008E5AB4 /* ViewControllerDemoUIPicker.m in Sources */,
 				52669EFC18A9518400B3C6F4 /* ObjectiveCLanguageDemo.m in Sources */,
 				52669F1418A973AF00B3C6F4 /* Company.m in Sources */,
+				524DAAE918AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m in Sources */,
 				52DB78A118A78C9B0095189F /* Person.m in Sources */,
 				5207208018A62CC1005A6804 /* AppDelegate.m in Sources */,
 				52669F0E18A9737C00B3C6F4 /* Project.m in Sources */,
 				52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */,
 				5207208318A62CC1005A6804 /* AppDemo.xcdatamodeld in Sources */,
+				524DAAE518AAC3CD008E5AB4 /* ViewControllerDemoUISwitch.m in Sources */,
+				524DAAE418AAC3CD008E5AB4 /* ViewControllerDemoUISlider.m in Sources */,
+				524DAAE118AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker.m in Sources */,
+				524DAAE218AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m in Sources */,
+				524DAAED18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m in Sources */,
 				52669F0118A9690C00B3C6F4 /* Employee.m in Sources */,
 				5207207C18A62CC1005A6804 /* main.m in Sources */,
 				52DB789B18A77E030095189F /* MainViewController.m in Sources */,

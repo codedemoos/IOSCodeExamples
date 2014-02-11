@@ -13,6 +13,20 @@
 
 #import "Person.h"
 
+#import "ViewControllerDemoAlert2.h"
+
+#import "ViewControllerDemoUISwitch.h"
+
+#import "ViewControllerDemoUIPicker.h"
+
+#import "ViewControllerDemoUIDatePicker.h"
+
+#import "ViewControllerDemoUIDatePicker2.h"
+
+#import "ViewControllerDemoUISlider.h"
+
+#import "ViewControllerDemoUISegmentedControl.h"
+
 @interface MainViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoAlert;
