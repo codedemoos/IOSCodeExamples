@@ -33,5 +33,23 @@
 
 @property int verticalPosition;
 
+-(int) getVerticalPosForNextButton;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoAlert2;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUISwitch;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIPicker;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIDatePicker;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIDatePicker2;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUISlider;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUISegmentedControl;
+
+
+
 
 @end

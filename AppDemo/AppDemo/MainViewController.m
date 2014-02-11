@@ -52,7 +52,7 @@
     
     //DEMO - START
     self.displayViewControllerDemoAlert = [UIButton  buttonWithType:UIButtonTypeSystem];
-    self.displayViewControllerDemoAlert.frame = CGRectMake(20, [self verticalPosition], 200, 100);
+    self.displayViewControllerDemoAlert.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
     [self.displayViewControllerDemoAlert setTitle:@"Go To View Alert Demo" forState:UIControlStateNormal];
     [self.displayViewControllerDemoAlert sizeToFit];
     [self.displayViewControllerDemoAlert addTarget:self action:@selector(performDisplayViewControllerDemoAlert:) forControlEvents:UIControlEventTouchUpInside];
@@ -60,17 +60,152 @@
     //DEMO - END
     
     
+    //////////////
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoAlert2 = [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoAlert2.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoAlert2 setTitle:@"Go To View Alert Demo 2" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoAlert2 sizeToFit];
+    
+    [self.displayViewControllerDemoAlert2 addTarget:self action:@selector(performDisplayViewControllerDemoAlert2:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoAlert2];
+    
+    //DEMO - END
+    
+    ///////
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUISwitch = [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUISwitch.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    [self.displayViewControllerDemoUISwitch setTitle:@"Go To UI Switch Demo " forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUISwitch sizeToFit];
+    
+    [self.displayViewControllerDemoUISwitch addTarget:self action:@selector(performDisplayViewControllerDemoUISwitch:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUISwitch];
+    
+    //DEMO - END
+    
+    
+    //UIPICKER
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIPicker = [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIPicker.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIPicker setTitle:@"Go To UI Picker Demo " forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIPicker sizeToFit];
+    
+    [self.displayViewControllerDemoUIPicker addTarget:self action:@selector(performDisplayViewControllerDemoUIPicker:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIPicker];
+    
+    //DEMO - END
+    
+    
+    
+    
+    //UIDATEPICKER
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIDatePicker = [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIDatePicker.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIDatePicker setTitle:@"Go To UI Date Picker Demo " forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIDatePicker sizeToFit];
+    
+    [self.displayViewControllerDemoUIDatePicker addTarget:self action:@selector(performDisplayViewControllerDemoUIDatePicker:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIDatePicker];
+    
+    //DEMO - END
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIDatePicker2 = [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIDatePicker2.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    [self.displayViewControllerDemoUIDatePicker2 setTitle:@"Go To UI Date Picker Demo 2" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIDatePicker2 sizeToFit];
+    
+    [self.displayViewControllerDemoUIDatePicker2 addTarget:self action:@selector(performDisplayViewControllerDemoUIDatePicker2:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIDatePicker2];
+    
+    //DEMO - END
+    
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUISlider= [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUISlider.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUISlider setTitle:@"Go To UI Slider Demo" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUISlider sizeToFit];
+    
+    [self.displayViewControllerDemoUISlider addTarget:self action:@selector(performDisplayViewControllerDemoUISlider:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUISlider];
+    
+    //DEMO - END
+    
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUISegmentedControl= [UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUISegmentedControl.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUISegmentedControl setTitle:@"Go To UI Segmented Control Demo" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUISegmentedControl sizeToFit];
+    
+    [self.displayViewControllerDemoUISegmentedControl addTarget:self action:@selector(performDisplayViewControllerDemoUISegmentedControl:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUISegmentedControl];
+    
+    
+    //DEMO - END
 
     
 }
 
-- (int)getVerticalPost{
+- (int) getVerticalPosForNextButton{
 
-    if(self.verticalPosition == 0)
-        self.verticalPosition =120;
-    else
+    if(self.verticalPosition == 0){
+        
+        self.verticalPosition =40;
+    
+        NSLog(@"init %d",self.verticalPosition);
+    
+    }else{
+        
         self.verticalPosition = self.verticalPosition+40;
     
+    
+    NSLog(@"new %d",self.verticalPosition);
+    }
     return self.verticalPosition;
 }
 
@@ -98,6 +233,109 @@
     
     
    
+}
+- (void) performDisplayViewControllerDemoAlert2:(id)paramSender{
+    
+    
+    //INIZIALIZZA IL VIEWCONTROLLER
+    ViewControllerDemoAlert2 *secondController = [[ViewControllerDemoAlert2 alloc]
+                                                  initWithNibName:nil
+                                                  bundle:NULL];
+    
+    //ESEGUE LA NAVIGAZIONE
+    [self.navigationController pushViewController:secondController
+                                         animated:NO];
+    
+    
+    
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUISwitch:(id)paramSender{
+    
+    
+    
+    ViewControllerDemoUISwitch *secondController = [[ViewControllerDemoUISwitch alloc]
+                                                    initWithNibName:nil
+                                                    bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController
+                                         animated:NO];
+    
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUIPicker:(id)paramSender{
+    
+    
+    
+    ViewControllerDemoUIPicker *secondController = [[ViewControllerDemoUIPicker alloc]
+                                                    initWithNibName:nil
+                                                    bundle:NULL];
+    
+    
+    [self.navigationController pushViewController:secondController
+                                         animated:NO];
+    
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUIDatePicker:(id)paramSender{
+    
+    
+    
+    ViewControllerDemoUIDatePicker *secondController = [[ViewControllerDemoUIDatePicker alloc]
+                                                        initWithNibName:nil
+                                                        bundle:NULL];
+    
+    
+    [self.navigationController pushViewController:secondController
+                                         animated:NO];
+    
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUIDatePicker2:(id)paramSender{
+    
+    
+    
+    ViewControllerDemoUIDatePicker2 *secondController = [[ViewControllerDemoUIDatePicker2 alloc]
+                                                         initWithNibName:nil
+                                                         bundle:NULL];
+
+    
+    [self.navigationController pushViewController:secondController
+                                         animated:NO];
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUISlider:(id)paramSender{
+    
+    
+    ViewControllerDemoUISlider *secondController = [[ViewControllerDemoUISlider alloc]
+                                                    initWithNibName:nil
+                                                    bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+}
+
+
+- (void) performDisplayViewControllerDemoUISegmentedControl:(id)paramSender{
+    
+    
+    ViewControllerDemoUISegmentedControl *secondController = [[ViewControllerDemoUISegmentedControl alloc]
+                                                              initWithNibName:nil
+                                                              bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
 }
 
 
