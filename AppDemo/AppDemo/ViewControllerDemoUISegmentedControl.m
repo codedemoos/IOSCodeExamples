@@ -29,12 +29,12 @@
 	// Do any additional setup after loading the view.
     
     
-    self.title = @"Prossima Spesa";
+    self.title = @"UI Segmented Control Demo";
     
     NSArray *segments = [[NSArray alloc] initWithObjects:
                          @"iPhone",
                          @"iPad",                         @"Auto",
-                         @"Parigi", nil];
+                         nil];
     
     self.mySegmentedControl = [[UISegmentedControl alloc]
                                initWithItems:segments];
