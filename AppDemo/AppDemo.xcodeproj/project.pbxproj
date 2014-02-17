@@ -22,6 +22,7 @@
 		5207208F18A62CC1005A6804 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207207318A62CC1005A6804 /* CoreData.framework */; };
 		5207209718A62CC1005A6804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5207209518A62CC1005A6804 /* InfoPlist.strings */; };
 		5207209918A62CC1005A6804 /* AppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207209818A62CC1005A6804 /* AppDemoTests.m */; };
+		5212653F18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212653E18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m */; };
 		5212DF6118AD6BB90001542C /* ViewControllerDemoUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212DF6018AD6BB90001542C /* ViewControllerDemoUIBarButtonItem.m */; };
 		5212DF6718AD70CD0001542C /* ViewControllerDemoUITab1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212DF6618AD70CD0001542C /* ViewControllerDemoUITab1.m */; };
 		5212DF6A18AD70E00001542C /* ViewControllerDemoUITab2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212DF6918AD70E00001542C /* ViewControllerDemoUITab2.m */; };
@@ -74,6 +75,8 @@
 		5207209418A62CC1005A6804 /* AppDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5207209618A62CC1005A6804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5207209818A62CC1005A6804 /* AppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDemoTests.m; sourceTree = "<group>"; };
+		5212653D18B2A8010076DCF4 /* ViewControllerDemoUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUIWebView.h; sourceTree = "<group>"; };
+		5212653E18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUIWebView.m; sourceTree = "<group>"; };
 		5212DF5F18AD6BB90001542C /* ViewControllerDemoUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUIBarButtonItem.h; sourceTree = "<group>"; };
 		5212DF6018AD6BB90001542C /* ViewControllerDemoUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUIBarButtonItem.m; sourceTree = "<group>"; };
 		5212DF6518AD70CD0001542C /* ViewControllerDemoUITab1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUITab1.h; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				52D639B018B0C890001F787C /* ViewControllerDemoUIImage.m */,
 				52DB789A18A77E030095189F /* MainViewController.m */,
 				52DB789918A77E030095189F /* MainViewController.h */,
+				5212653D18B2A8010076DCF4 /* ViewControllerDemoUIWebView.h */,
+				5212653E18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m */,
 				5207207E18A62CC1005A6804 /* AppDelegate.h */,
 				5207207F18A62CC1005A6804 /* AppDelegate.m */,
 				5207208418A62CC1005A6804 /* Images.xcassets */,
@@ -375,6 +380,7 @@
 				52D639B118B0C890001F787C /* ViewControllerDemoUIImage.m in Sources */,
 				524DAAE218AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m in Sources */,
 				524DAAED18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m in Sources */,
+				5212653F18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m in Sources */,
 				5207207C18A62CC1005A6804 /* main.m in Sources */,
 				52DB789B18A77E030095189F /* MainViewController.m in Sources */,
 				52D639AE18B0C2F4001F787C /* Person.m in Sources */,

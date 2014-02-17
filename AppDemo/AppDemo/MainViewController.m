@@ -244,6 +244,25 @@
     
     //DEMO - END
     
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIWebView = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIWebView.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIWebView  setTitle:@"Go To Button UI Web View" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIWebView  sizeToFit];
+    
+    [self.displayViewControllerDemoUIWebView  addTarget:self action:@selector(performDisplaydViewControllerDemoUIWebView:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIWebView];
+    
+    
+    //DEMO - END
+    
 }
 
 - (int) getVerticalPosForNextButton{
@@ -424,6 +443,18 @@
     ViewControllerDemoUIImage *secondController = [[ViewControllerDemoUIImage alloc]
                                                   initWithNibName:nil
                                                   bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+- (void) performDisplaydViewControllerDemoUIWebView:(id)paramSender{
+    
+    
+    ViewControllerDemoUIWebView *secondController = [[ViewControllerDemoUIWebView alloc]
+                                                   initWithNibName:nil
+                                                   bundle:NULL];
     
     [self.navigationController pushViewController:secondController animated:NO];
     

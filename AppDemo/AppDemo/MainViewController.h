@@ -34,6 +34,10 @@
 
 #import "ViewControllerDemoUIImage.h"
 
+
+#import "ViewControllerDemoUIWebView.h"
+
+
 @interface MainViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoAlert;
@@ -62,5 +66,7 @@
 @property (nonatomic, strong) UIButton *displayViewControllerDemoButton;
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUIImage;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIWebView;
 
 @end
