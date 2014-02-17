@@ -27,6 +27,13 @@
 
 #import "ViewControllerDemoUISegmentedControl.h"
 
+#import "ViewControllerDemoUIBarButtonItem.h"
+
+
+#import "ViewControllerDemoButton.h"
+
+#import "ViewControllerDemoUIImage.h"
+
 @interface MainViewController : UIViewController
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoAlert;
@@ -49,7 +56,11 @@
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUISegmentedControl;
 
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIBarButtonItem;
 
 
+@property (nonatomic, strong) UIButton *displayViewControllerDemoButton;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIImage;
 
 @end

@@ -187,7 +187,62 @@
     
     
     //DEMO - END
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIBarButtonItem = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIBarButtonItem.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIBarButtonItem setTitle:@"Go To UI Bar Button Item Demo" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIBarButtonItem sizeToFit];
+    
+    [self.displayViewControllerDemoUIBarButtonItem addTarget:self action:@selector(performDisplayViewControllerDemoUIBarButtonItem:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIBarButtonItem];
+    
+    
+    //DEMO - END
+    
 
+
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoButton = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoButton.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoButton setTitle:@"Go To Button Controller" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoButton sizeToFit];
+    
+    [self.displayViewControllerDemoButton addTarget:self action:@selector(performDisplaydViewControllerDemoButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoButton];
+    
+    
+    //DEMO - END
+    
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIImage = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIImage.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIImage setTitle:@"Go To Button UI Image Controller" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIImage sizeToFit];
+    
+    [self.displayViewControllerDemoUIImage addTarget:self action:@selector(performDisplaydViewControllerDemoUIImage:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIImage];
+    
+    
+    //DEMO - END
     
 }
 
@@ -338,6 +393,42 @@
     
 }
 
+
+- (void) performDisplayViewControllerDemoUIBarButtonItem:(id)paramSender{
+    
+    
+   ViewControllerDemoUIBarButtonItem *secondController = [[ViewControllerDemoUIBarButtonItem alloc]
+                                                              initWithNibName:nil
+                                                              bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+- (void) performDisplaydViewControllerDemoButton:(id)paramSender{
+    
+    
+    ViewControllerDemoButton *secondController = [[ViewControllerDemoButton alloc]
+                                                              initWithNibName:nil
+                                                              bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+- (void) performDisplaydViewControllerDemoUIImage:(id)paramSender{
+    
+    
+    ViewControllerDemoUIImage *secondController = [[ViewControllerDemoUIImage alloc]
+                                                  initWithNibName:nil
+                                                  bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
 
 
 @end
