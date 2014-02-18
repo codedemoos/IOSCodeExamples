@@ -34,8 +34,6 @@
 
 @interface Person : NSObject <PersonProtocol>
 
-
-
 @property (nonatomic, assign) int _id;
 
 @property (nonatomic, copy) NSString *firstName;
