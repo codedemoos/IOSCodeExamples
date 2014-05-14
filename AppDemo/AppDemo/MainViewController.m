@@ -46,6 +46,7 @@
     scrollView.showsVerticalScrollIndicator = YES;
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height);
+    
     [self.view addSubview:scrollView];
     
     self.verticalPosition = 0;
@@ -233,7 +234,7 @@
     
     self.displayViewControllerDemoUIImage.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
     
-    [self.displayViewControllerDemoUIImage setTitle:@"Go To Button UI Image Controller" forState:UIControlStateNormal];
+    [self.displayViewControllerDemoUIImage setTitle:@"Go To UI Image Controller" forState:UIControlStateNormal];
     
     [self.displayViewControllerDemoUIImage sizeToFit];
     
@@ -252,7 +253,7 @@
     
     self.displayViewControllerDemoUIWebView.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
     
-    [self.displayViewControllerDemoUIWebView  setTitle:@"Go To Button UI Web View" forState:UIControlStateNormal];
+    [self.displayViewControllerDemoUIWebView  setTitle:@"Go To UI Web View" forState:UIControlStateNormal];
     
     [self.displayViewControllerDemoUIWebView  sizeToFit];
     
@@ -263,6 +264,92 @@
     
     //DEMO - END
     
+    
+    /*
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIAutoLayout = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIAutoLayout.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIAutoLayout  setTitle:@"Go To Button Auto Layout" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIAutoLayout  sizeToFit];
+    
+    [self.displayViewControllerDemoUIAutoLayout  addTarget:self action:@selector(performDisplaydViewControllerDemoUIAutoLayout:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIAutoLayout];
+    */
+    
+    //DEMO - END
+
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIView = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIView.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIView  setTitle:@"Go To UI View" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIView  sizeToFit];
+    
+    [self.displayViewControllerDemoUIView  addTarget:self action:@selector(performDisplaydViewControllerDemoUIView:)
+                                    forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIView];
+    
+    
+    //DEMO - END
+    
+    
+    
+    
+    //DEMO - START
+    
+    self.displayViewControllerDemoUIView2 = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUIView2.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUIView2  setTitle:@"Go To UI View 2" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUIView2  sizeToFit];
+    
+    [self.displayViewControllerDemoUIView2  addTarget:self action:@selector(performDisplaydViewControllerDemoUIView2:)
+                                    forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUIView2];
+    
+    
+    //DEMO - END
+
+    //DEMO - START
+    
+    self.displayViewControllerDemoUITable = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayViewControllerDemoUITable.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayViewControllerDemoUITable  setTitle:@"Go To Demo UITable" forState:UIControlStateNormal];
+    
+    [self.displayViewControllerDemoUITable  sizeToFit];
+    
+    [self.displayViewControllerDemoUITable  addTarget:self action:@selector(performDisplaydViewControllerDemoUITable:)
+                                     forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayViewControllerDemoUITable];
+    
+    
+    //DEMO - END
+    
+    
+     
+    CGRect contentRect = CGRectZero;
+    
+    for (UIView *view in scrollView.subviews) {
+        contentRect = CGRectUnion(contentRect, view.frame);
+    }
+    scrollView.contentSize = contentRect.size;
 }
 
 - (int) getVerticalPosForNextButton{
@@ -461,5 +548,54 @@
     
 }
 
+- (void) performDisplaydViewControllerDemoUIAutoLayout:(id)paramSender{
+    
+    
+   ViewControllerDemoAutoLayout *secondController = [[ViewControllerDemoAutoLayout alloc]
+                                                     initWithNibName:nil
+                                                     bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+- (void) performDisplaydViewControllerDemoUIView:(id)paramSender{
+    
+    
+    ViewControllerDemoUIView *secondController = [[ViewControllerDemoUIView alloc]
+                                                      initWithNibName:nil
+                                                      bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+
+- (void) performDisplaydViewControllerDemoUIView2:(id)paramSender{
+    
+    
+    ViewControllerDemoUIView2 *secondController = [[ViewControllerDemoUIView2 alloc]
+                                                  initWithNibName:nil
+                                                  bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
+
+
+- (void) performDisplaydViewControllerDemoUITable:(id)paramSender{
+    
+    
+    ViewControllerDemoUITable *secondController = [[ViewControllerDemoUITable alloc]
+                                                   initWithNibName:nil
+                                                   bundle:NULL];
+    
+    [self.navigationController pushViewController:secondController animated:NO];
+    
+    
+}
 
 @end

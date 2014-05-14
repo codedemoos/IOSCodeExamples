@@ -35,7 +35,15 @@
                                      style:UIBarButtonItemStylePlain target:self action:@selector(performAdd:)];
     
 }
-- (void) performAdd:(id)paramSender{ NSLog(@"Action method got called.");
+
+
+
+- (void) performAdd:(id)paramSender{
+    
+    
+    NSLog(@"Action method got called.");
+    
+    
 }
 - (void)didReceiveMemoryWarning
 {

@@ -29,13 +29,19 @@
 
 #import "ViewControllerDemoUIBarButtonItem.h"
 
-
 #import "ViewControllerDemoButton.h"
 
 #import "ViewControllerDemoUIImage.h"
 
-
 #import "ViewControllerDemoUIWebView.h"
+
+#import "ViewControllerDemoAutoLayout.h"
+
+#import "ViewControllerDemoUIView.h"
+
+#import "ViewControllerDemoUIView2.h"
+
+#import "ViewControllerDemoUITable.h"
 
 
 @interface MainViewController : UIViewController
@@ -62,11 +68,18 @@
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUIBarButtonItem;
 
-
 @property (nonatomic, strong) UIButton *displayViewControllerDemoButton;
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUIImage;
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUIWebView;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIAutoLayout;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIView;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUIView2;
+
+@property (nonatomic, strong) UIButton *displayViewControllerDemoUITable;
 
 @end
