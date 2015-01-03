@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52041C5D1931031D0079A566 /* SpriteKitDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52041C5A1931031D0079A566 /* SpriteKitDemoViewController.m */; };
+		52041C5E1931031D0079A566 /* WelcomeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 52041C5C1931031D0079A566 /* WelcomeScene.m */; };
 		5207206E18A62CC1005A6804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207206D18A62CC1005A6804 /* Foundation.framework */; };
 		5207207018A62CC1005A6804 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207206F18A62CC1005A6804 /* CoreGraphics.framework */; };
 		5207207218A62CC1005A6804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207207118A62CC1005A6804 /* UIKit.framework */; };
@@ -34,6 +36,7 @@
 		524DAAE918AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAE718AAC4BB008E5AB4 /* ViewControllerDemoAlert2.m */; };
 		524DAAED18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 524DAAEC18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m */; };
 		529341D418BE82C4008B994D /* ViewControllerDemoAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 529341D318BE82C4008B994D /* ViewControllerDemoAutoLayout.m */; };
+		52B4B7041983E58700E04C6D /* ViewControllerDemoAlert3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4B7031983E58700E04C6D /* ViewControllerDemoAlert3.swift */; };
 		52B749E818D4409300BFE2C6 /* ViewControllerDemoUITable.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B749E718D4409300BFE2C6 /* ViewControllerDemoUITable.m */; };
 		52BB937318C23BE900E076BE /* ViewControllerDemoUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB937218C23BE900E076BE /* ViewControllerDemoUIView.m */; };
 		52BB937618C2400C00E076BE /* ViewControllerDemoUIView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB937518C2400C00E076BE /* ViewControllerDemoUIView2.m */; };
@@ -58,9 +61,27 @@
 			remoteGlobalIDString = 5207206918A62CC1005A6804;
 			remoteInfo = AppDemo;
 		};
+		52B4B6FE1983E55100E04C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5207206218A62CC1005A6804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5207206918A62CC1005A6804;
+			remoteInfo = AppDemo;
+		};
+		52B4B7001983E55100E04C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5207206218A62CC1005A6804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5207206918A62CC1005A6804;
+			remoteInfo = AppDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52041C591931031D0079A566 /* SpriteKitDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKitDemoViewController.h; sourceTree = "<group>"; };
+		52041C5A1931031D0079A566 /* SpriteKitDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKitDemoViewController.m; sourceTree = "<group>"; };
+		52041C5B1931031D0079A566 /* WelcomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScene.h; sourceTree = "<group>"; };
+		52041C5C1931031D0079A566 /* WelcomeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScene.m; sourceTree = "<group>"; };
 		5207206A18A62CC1005A6804 /* AppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5207206D18A62CC1005A6804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5207206F18A62CC1005A6804 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,6 +124,8 @@
 		524DAAEC18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUISegmentedControl.m; sourceTree = "<group>"; };
 		529341D218BE82C4008B994D /* ViewControllerDemoAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoAutoLayout.h; sourceTree = "<group>"; };
 		529341D318BE82C4008B994D /* ViewControllerDemoAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoAutoLayout.m; sourceTree = "<group>"; };
+		52B4B7021983E58600E04C6D /* AppDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		52B4B7031983E58700E04C6D /* ViewControllerDemoAlert3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerDemoAlert3.swift; path = ../ViewControllerDemoAlert3.swift; sourceTree = "<group>"; };
 		52B749E618D4409300BFE2C6 /* ViewControllerDemoUITable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoUITable.h; sourceTree = "<group>"; };
 		52B749E718D4409300BFE2C6 /* ViewControllerDemoUITable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoUITable.m; sourceTree = "<group>"; };
 		52BB937118C23BE900E076BE /* ViewControllerDemoUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerDemoUIView.h; path = ../ViewControllerDemoUIView.h; sourceTree = "<group>"; };
@@ -163,7 +186,7 @@
 		5207206118A62CC1005A6804 = {
 			isa = PBXGroup;
 			children = (
-				5207207518A62CC1005A6804 /* , */,
+				5207207518A62CC1005A6804 /* Code */,
 				5207209218A62CC1005A6804 /* AppDemoTests */,
 				5207206C18A62CC1005A6804 /* Frameworks */,
 				5207206B18A62CC1005A6804 /* Products */,
@@ -191,9 +214,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5207207518A62CC1005A6804 /* , */ = {
+		5207207518A62CC1005A6804 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				52B4B7031983E58700E04C6D /* ViewControllerDemoAlert3.swift */,
+				52041C591931031D0079A566 /* SpriteKitDemoViewController.h */,
+				52041C5A1931031D0079A566 /* SpriteKitDemoViewController.m */,
+				52041C5B1931031D0079A566 /* WelcomeScene.h */,
+				52041C5C1931031D0079A566 /* WelcomeScene.m */,
 				52D639B218B0CA9B001F787C /* mac1.jpg */,
 				52D639AC18B0C2F4001F787C /* Person.h */,
 				52BB937118C23BE900E076BE /* ViewControllerDemoUIView.h */,
@@ -246,6 +274,7 @@
 				5207207E18A62CC1005A6804 /* AppDelegate.h */,
 				529341D218BE82C4008B994D /* ViewControllerDemoAutoLayout.h */,
 				529341D318BE82C4008B994D /* ViewControllerDemoAutoLayout.m */,
+				52B4B7021983E58600E04C6D /* AppDemo-Bridging-Header.h */,
 				5207207F18A62CC1005A6804 /* AppDelegate.m */,
 				5207208418A62CC1005A6804 /* Images.xcassets */,
 				5207208118A62CC1005A6804 /* AppDemo.xcdatamodeld */,
@@ -253,7 +282,7 @@
 				52B749E618D4409300BFE2C6 /* ViewControllerDemoUITable.h */,
 				52B749E718D4409300BFE2C6 /* ViewControllerDemoUITable.m */,
 			);
-			name = ",";
+			name = Code;
 			path = AppDemo;
 			sourceTree = "<group>";
 		};
@@ -318,6 +347,8 @@
 			);
 			dependencies = (
 				5207209118A62CC1005A6804 /* PBXTargetDependency */,
+				52B4B6FF1983E55100E04C6D /* PBXTargetDependency */,
+				52B4B7011983E55100E04C6D /* PBXTargetDependency */,
 			);
 			name = AppDemoTests;
 			productName = AppDemoTests;
@@ -330,7 +361,7 @@
 		5207206218A62CC1005A6804 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Paolo;
 				TargetAttributes = {
 					5207206918A62CC1005A6804 = {
@@ -391,10 +422,12 @@
 				5212DF6118AD6BB90001542C /* ViewControllerDemoUIBarButtonItem.m in Sources */,
 				52B749E818D4409300BFE2C6 /* ViewControllerDemoUITable.m in Sources */,
 				52D6399A18B0C1F6001F787C /* ViewControllerDemoButton.m in Sources */,
+				52041C5D1931031D0079A566 /* SpriteKitDemoViewController.m in Sources */,
 				52D639A418B0C2A9001F787C /* Employee.m in Sources */,
 				5207208018A62CC1005A6804 /* AppDelegate.m in Sources */,
 				52DB789E18A77F9E0095189F /* ViewControllerDemoAlert.m in Sources */,
 				529341D418BE82C4008B994D /* ViewControllerDemoAutoLayout.m in Sources */,
+				52041C5E1931031D0079A566 /* WelcomeScene.m in Sources */,
 				52D639A318B0C2A9001F787C /* Department.m in Sources */,
 				52D639A218B0C2A9001F787C /* Company.m in Sources */,
 				5207208318A62CC1005A6804 /* AppDemo.xcdatamodeld in Sources */,
@@ -408,6 +441,7 @@
 				524DAAE218AAC3CD008E5AB4 /* ViewControllerDemoUIDatePicker2.m in Sources */,
 				524DAAED18AAC623008E5AB4 /* ViewControllerDemoUISegmentedControl.m in Sources */,
 				52BB937318C23BE900E076BE /* ViewControllerDemoUIView.m in Sources */,
+				52B4B7041983E58700E04C6D /* ViewControllerDemoAlert3.swift in Sources */,
 				5212653F18B2A8010076DCF4 /* ViewControllerDemoUIWebView.m in Sources */,
 				5207207C18A62CC1005A6804 /* main.m in Sources */,
 				52DB789B18A77E030095189F /* MainViewController.m in Sources */,
@@ -431,6 +465,16 @@
 			isa = PBXTargetDependency;
 			target = 5207206918A62CC1005A6804 /* AppDemo */;
 			targetProxy = 5207209018A62CC1005A6804 /* PBXContainerItemProxy */;
+		};
+		52B4B6FF1983E55100E04C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5207206918A62CC1005A6804 /* AppDemo */;
+			targetProxy = 52B4B6FE1983E55100E04C6D /* PBXContainerItemProxy */;
+		};
+		52B4B7011983E55100E04C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5207206918A62CC1005A6804 /* AppDemo */;
+			targetProxy = 52B4B7001983E55100E04C6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,6 +533,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = AppDemo;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -521,6 +566,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = AppDemo;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -531,14 +577,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppDemo/AppDemo-Prefix.pch";
 				INFOPLIST_FILE = "AppDemo/AppDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -549,14 +599,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppDemo/AppDemo-Prefix.pch";
 				INFOPLIST_FILE = "AppDemo/AppDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppDemo-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

@@ -43,6 +43,18 @@
 
 #import "ViewControllerDemoUITable.h"
 
+#import "ViewControllerDemoUITable.h"
+
+#import "WelcomeScene.h"
+
+#import <SpriteKit/SpriteKit.h>
+
+#import "SpriteKitDemoViewController.h"
+
+
+#import "AppDemo-Bridging-Header.h"
+
+
 
 @interface MainViewController : UIViewController
 
@@ -81,5 +93,9 @@
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUIView2;
 
 @property (nonatomic, strong) UIButton *displayViewControllerDemoUITable;
+
+
+@property (nonatomic,strong) UIButton *displayWelcomeScene;
+
 
 @end

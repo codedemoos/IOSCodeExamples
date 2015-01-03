@@ -10,6 +10,7 @@
 
 #import "ObjectiveCLanguageDemo.h"
 
+
 @interface MainViewController ()
 
 @end
@@ -342,6 +343,22 @@
     
     //DEMO - END
     
+    //DEMO - START
+
+    self.displayWelcomeScene = [ UIButton  buttonWithType:UIButtonTypeSystem];
+    
+    self.displayWelcomeScene.frame = CGRectMake(20, [self getVerticalPosForNextButton], 200, 100);
+    
+    [self.displayWelcomeScene  setTitle:@"Go To Game Demo" forState:UIControlStateNormal];
+    
+    [self.displayWelcomeScene  sizeToFit];
+    
+    [self.displayWelcomeScene  addTarget:self action:@selector(performDisplaydWelcomeScene:)
+                                     forControlEvents:UIControlEventTouchUpInside];
+    
+    [scrollView  addSubview:self.displayWelcomeScene];
+
+    //DEMO - END
     
      
     CGRect contentRect = CGRectZero;
@@ -586,6 +603,23 @@
 }
 
 
+- (void) performDisplaydWelcomeScene:(id)paramSender{
+    
+
+
+    SpriteKitDemoViewController *secondController = [[SpriteKitDemoViewController alloc]   initWithNibName:nil bundle:NULL];
+    // Create the navigation controller and present it.
+    
+  
+    
+    //[self presentViewController:secondController animated:YES completion: nil];
+
+   [self presentViewController:secondController animated:NO completion:nil];
+
+    
+}
+
+
 - (void) performDisplaydViewControllerDemoUITable:(id)paramSender{
     
     
@@ -593,9 +627,10 @@
                                                    initWithNibName:nil
                                                    bundle:NULL];
     
-    [self.navigationController pushViewController:secondController animated:NO];
+  //  [self.navigationController pushViewController:secondController animated:NO];
     
     
 }
+
 
 @end

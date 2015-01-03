@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppDemo/MainViewController.m"
-            timestampString = "415139452.746689"
+            timestampString = "422641853.740975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppDemo/MainViewController.m"
-            timestampString = "415139452.746689"
+            timestampString = "422641853.740975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -72,11 +72,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppDemo/MainViewController.h"
-            timestampString = "416563525.824445"
+            timestampString = "428075462.235545"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46">
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "@interface MainViewController"
+            landmarkType = "2">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -166,6 +168,22 @@
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppDemo/MainViewController.m"
+            timestampString = "422644579.811805"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "617"
+            endingLineNumber = "617"
+            landmarkName = "-performDisplaydWelcomeScene:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
